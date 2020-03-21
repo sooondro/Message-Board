@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   });
 });
 
-const port = procces.env.PORT || 1234;
+const port = process.env.PORT || 1234;
 app.listen(port, () => {
   console.log(`Listening on ${port}`);
 });
